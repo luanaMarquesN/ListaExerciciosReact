@@ -47,39 +47,48 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#121212', 
   },
   title: {
     fontSize: 24,
     fontWeight: 'bold',
+    color: '#fff', 
     marginBottom: 20,
   },
   input: {
     height: 40,
-    borderColor: '#ccc',
+    borderColor: '#bbb',
     borderWidth: 1,
     marginBottom: 10,
     paddingLeft: 10,
     width: '80%',
     borderRadius: 5,
+    backgroundColor: '#1e1e1e',
+    color: '#fff', 
   },
   buttonContainer: {
     marginTop: 20,
   },
+   image: {
+    width: 186,
+    height: 271,
+    marginBottom: 20,
+  },
   button: {
-    backgroundColor: '#4CAF50',
+    backgroundColor: '#FF4081', 
     padding: 10,
     borderRadius: 5,
   },
   buttonText: {
     color: '#fff',
     fontSize: 16,
+    fontWeight: 'bold',
   },
   result: {
     marginTop: 20,
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#333',
-    textAlign: 'center',
+    color: '#fff', 
   },
 });
+
